@@ -9,6 +9,5 @@ resource "aws_instance" "name" {
     lifecycle {
         ignore_changes = [tags]
         create_before_destroy = true
-        prevent_destroy = true
 }
 }

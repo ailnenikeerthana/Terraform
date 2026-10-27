@@ -4,6 +4,3 @@ resource "aws_instance" "name" {
   availability_zone = var.availability_zone
   tags = var.tags
 }
-resource "aws_s3_bucket" "my_bucket" {
-  bucket = "jbheuhiheukbj"
-}
